@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/ancestry.schema.json",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "./common/id.schema.json" },
+    "name": { "$ref": "./common/localized-string.schema.json" },
+    "description": { "$ref": "./common/description.schema.json" },
+    "features": {
+      "type": "array",
+      "items": { "$ref": "./common/feature.schema.json" },
+      "minItems": 2,
+      "maxItems": 2
+    }
+  },
+  "required": ["id", "name", "description", "features"],
+  "additionalProperties": false
+}

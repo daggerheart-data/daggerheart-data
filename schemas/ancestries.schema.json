@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/ancestries.schema.json",
+  "type": "array",
+  "items": { "$ref": "./ancestry.schema.json" },
+  "minItems": 1
+}
