@@ -5,7 +5,12 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Clanks are sentient mechanical beings built from a variety of materials, including metal, wood, and stone. They can resemble humanoids, animals, or even inanimate objects. Like organic beings, their bodies come in a wide array of sizes. Because of their bespoke construction, many clanks have highly specialized physical configurations. Examples include clawed hands for grasping, wheels for movement, or built-in weaponry. Many clanks embrace body modifications for style as well as function, and members of other ancestries often turn to clank artisans to construct customized mobility aids and physical adornments. Other ancestries can create clanks, even using their own physical characteristics as inspiration, but it's also common for clanks to build one another. A clank's lifespan extends as long as they're able to acquire or craft new parts, making their physical form effectively immortal. That said, their minds are subject to the effects of time, and deteriorate as the magic that powers them loses potency."
+          "en-US": "Clanks are sentient mechanical beings built from a variety of materials, including metal, wood, and stone. They can resemble humanoids, animals, or even inanimate objects. Like organic beings, their bodies come in a wide array of sizes. Because of their bespoke construction, many clanks have highly specialized physical configurations. Examples include clawed hands for grasping, wheels for movement, or built-in weaponry."
+        }
+      },
+      {
+        "paragraph": {
+          "en-US": "Many clanks embrace body modifications for style as well as function, and members of other ancestries often turn to clank artisans to construct customized mobility aids and physical adornments. Other ancestries can create clanks, even using their own physical characteristics as inspiration, but it’s also common for clanks to build one another. A clank’s lifespan extends as long as they’re able to acquire or craft new parts, making their physical form effectively immortal. That said, their minds are subject to the effects of time, and deteriorate as the magic that powers them loses potency."
         }
       }
     ],
@@ -38,7 +43,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Drakona resemble wingless dragons in humanoid form and possess a powerful elemental breath. All drakona have thick scales that provide excellent natural armor against both attacks and the forces of nature. They are large in size, ranging from 6 feet to 7 feet on average, with long sharp teeth. New teeth grow throughout a Drakona's approximately 600-year lifespan, so they are never in danger of permanently losing an incisor. Unlike their dragon ancestors, drakona don't have wings and can't fly without magical aid. Members of this ancestry pass down the element of their breath through generations, though in rare cases, a drakona's elemental power will differ from the rest of their family's."
+          "en-US": "Drakona resemble wingless dragons in humanoid form and possess a powerful elemental breath. All drakona have thick scales that provide excellent natural armor against both attacks and the forces of nature. They are large in size, ranging from 5 feet to 7 feet on average, with long sharp teeth. New teeth grow throughout a Drakona’s approximately 350-year lifespan, so they are never in danger of permanently losing an incisor. Unlike their dragon ancestors, drakona don’t have wings and can’t fly without magical aid. Members of this ancestry pass down the element of their breath through generations, though in rare cases, a drakona’s elemental power will differ from the rest of their family’s."
         }
       }
     ],
@@ -48,7 +53,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Your scales act as natural protection. When you would take Severe damage, you can mark a Stress to mark 1 fewer Hit Points."
+              "en-US": "Your scales act as natural protection. When you would take Severe damage, you can <bold>mark a Stress</bold> to mark 1 fewer Hit Points."
             }
           }
         ]
@@ -58,7 +63,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Choose an element for your breath (such as electricity, fire, or ice). You can use this breath against a target or group of targets within Very Close range, treating it as an Instinct weapon that deals d8 magic damage using your Proficiency."
+              "en-US": "Choose an element for your breath (such as electricity, fire, or ice). You can use this breath against a target or group of targets within Very Close range, treating it as an Instinct weapon that deals <bold>d8</bold> magic damage using your Proficiency."
             }
           }
         ]
@@ -71,7 +76,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Dwarves are short, broad, and powerfully built, with dense musculature and thick hair. Their large hands and feet, prominent noses, and heavy brows are distinctive. Dwarves are renowned for their craftsmanship, resilience, and strong familial ties. They often dwell in mountainous regions or below ground, building elaborate halls and fortresses. Their culture emphasizes tradition and honor, and their communities are close-knit, often ruled by councils of elders. Dwarves can live for centuries, and their long lives are reflected in the depth of their knowledge and the durability of their creations."
+          "en-US": "Dwarves are most easily recognized as short humanoids with square frames, dense musculature, and thick hair. Their average height ranges from 4 to 5 ½ feet, and they are often broad in proportion to their stature. Their skin and nails contain a high amount of keratin, making them naturally resilient. This allows dwarves to embed gemstones into their bodies and decorate themselves with tattoos or piercings. Their hair grows thickly—usually on their heads, but some dwarves have thick hair across their bodies as well. Dwarves of all genders can grow facial hair, which they often style in elaborate arrangements. Typically, dwarves live up to 250 years of age, maintaining their muscle mass well into later life."
         }
       }
     ],
@@ -81,7 +86,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you take Minor damage, you can mark 2 Stress instead of marking a Hit Point."
+              "en-US": "When you take Minor damage, you can <bold>mark 2 Stress</bold> instead of marking a Hit Point."
             }
           }
         ]
@@ -91,7 +96,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Spend 3 Hope to halve incoming physical damage."
+              "en-US": "<bold>Spend 3 Hope</bold> to halve incoming physical damage."
             }
           }
         ]
@@ -104,7 +109,12 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Elves are tall, slender humanoids with pointed ears and keen senses. Their features are angular and graceful, and they move with a natural elegance. Elves are deeply attuned to the natural and magical worlds, often living in harmony with forests, rivers, and other wild places. Their lifespans are exceptionally long, sometimes spanning many centuries, and their memories are equally enduring. Elven society values art, magic, and learning, and their homes are often works of beauty seamlessly integrated into the landscape."
+          "en-US": "Elves are typically tall humanoids with pointed ears and acutely attuned senses. Their ears vary in size and pointed shape, and as they age, the tips begin to droop. While elves come in a wide range of body types, they are all fairly tall, with heights ranging from about 6 to 6 ½ feet. All elves have the ability to drop into a celestial trance, rather than sleep. This allows them to rest effectively in a short amount of time."
+        }
+      },
+      {
+        "paragraph": {
+          "en-US": "Some elves possess what is known as a “mystic form,” which occurs when an elf has dedicated themself to the study or protection of the natural world so deeply that their physical form changes. These characteristics can include celestial freckles, the presence of leaves, vines, or flowers in their hair, eyes that flicker like fire, and more. Sometimes these traits are inherited from parents, but if an elf changes their environment or magical focus, their appearance changes over time. Because elves live for about 350 years, these traits can shift more than once throughout their lifespan."
         }
       }
     ],
@@ -114,7 +124,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Mark a Stress to gain advantage on a reaction roll."
+              "en-US": "<bold>Mark a Stress</bold> to gain advantage on a reaction roll."
             }
           }
         ]
@@ -137,7 +147,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Faeries are diminutive, winged humanoids with delicate, insect-like features. Their translucent wings and vibrant coloration make them stand out in any environment. Faeries are closely tied to the forces of magic and fate, often acting as intermediaries between the spirit world and mortals. Their personalities are mercurial, ranging from mischievous to benevolent, and they delight in both tricks and acts of kindness. Faeries are curious and adventurous, and their presence is often accompanied by strange omens or bursts of wild magic."
+          "en-US": "Faeries are winged humanoid creatures with insectile features. These characteristics cover a broad spectrum from humanoid to insectoid—some possess additional arms, compound eyes, lantern organs, chitinous exoskeletons, or stingers. Because of their close ties to the natural world, they also frequently possess attributes that allow them to blend in with various plants. The average height of a faerie ranges from about 2 feet to 5 feet, but some faeries grow up to 7 feet tall. All faeries possess membranous wings and they each go through a process of metamorphosis. The process and changes differ from faerie to faerie, but during this transformation each individual manifests the unique appearance they will carry throughout the rest of their approximately 50-year lifespan."
         }
       }
     ],
@@ -147,7 +157,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Once per session, after you or a willing ally within Close range makes an action roll, you can spend 3 Hope to reroll the Duality Dice."
+              "en-US": "Once per session, after you or a willing ally within Close range makes an action roll, you can <bold>spend 3 Hope</bold> to reroll the Duality Dice."
             }
           }
         ]
@@ -157,7 +167,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "You can fly. While flying, you can mark a Stress after an adversary makes an attack against you to gain a +2 bonus to your Evasion against that attack."
+              "en-US": "You can fly. While flying, you can <bold>mark a Stress</bold> after an adversary makes an attack against you to gain a +2 bonus to your Evasion against that attack."
             }
           }
         ]
@@ -170,7 +180,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Fauns are humanoids with the lower bodies of goats, including cloven hooves and shaggy legs, and the upper bodies of humans. They are easily recognized by their curling horns, square pupils, and expressive ears. Fauns are known for their exuberance, musical talent, and love of revelry. Their communities are often found in woodlands and meadows, where they live in harmony with nature and celebrate the cycles of the seasons. Fauns value freedom, creativity, and the pursuit of pleasure, and their laughter is said to be contagious."
+          "en-US": "Fauns resemble humanoid goats with curving horns, square pupils, and cloven hooves. Though their appearances may vary, most fauns have a humanoid torso and a goatlike lower body covered in dense fur. Faun faces can be more caprine or more humanlike, and they have a wide variety of ear and horn shapes. Faun horns range from short with minimal curvature to much larger with a distinct curl. The average faun ranges from 4 feet to 6 ½ feet tall, but their height can change dramatically from one moment to the next based on their stance. The majority of fauns have proportionately long limbs, no matter their size or shape, and are known for their ability to deliver powerful blows with their split hooves. Fauns live for roughly 225 years, and as they age, their appearance can become increasingly goatlike."
         }
       }
     ],
@@ -190,7 +200,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you succeed on an attack against a target within Melee range, you can mark a Stress to kick yourself off them, dealing an extra 2d6 damage and knocking back either yourself or the target to Very Close range."
+              "en-US": "When you succeed on an attack against a target within Melee range, you can <bold>mark a Stress</bold> to kick yourself off them, dealing an extra <bold>2d6</bold> damage and knocking back either yourself or the target to Very Close range."
             }
           }
         ]
@@ -203,7 +213,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Firbolgs are large, gentle humanoids with bovine features, such as broad noses, long, drooping ears, and sometimes small horns. They are deeply connected to the natural world and often serve as guardians of ancient forests and sacred places. Firbolgs value peace, balance, and the quiet strength that comes from living in harmony with their surroundings. Their magic is subtle but powerful, allowing them to blend into their environment or communicate with animals and plants. Firbolgs are slow to anger but formidable when roused."
+          "en-US": "Firbolgs are bovine humanoids typically recognized by their broad noses and long, drooping ears. Some have faces that are a blend of humanoid and bison, ox, cow, or other bovine creatures. Others, often referred to as minotaurs, have heads that entirely resemble cattle. They are tall and muscular creatures, with heights ranging from around 5 feet to 7 feet, and possess remarkable strength no matter their age. Some firbolgs are known to use this strength to charge their adversaries, an action that is particuarly effective for those who have one of the many varieties of horn styles commonly found in this ancestry. Though their unique characteristics can vary, all firbolgs are covered in fur, which can be muted and earth-toned in color, or come in a variety of pastels, such as soft pinks and blues. On average, firbolgs live for about 150 years."
         }
       }
     ],
@@ -213,7 +223,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you succeed on an Agility Roll to move from Far or Very Far range into Melee range with one or more targets, you can mark a Stress to deal 1d12 physical damage to all targets within Melee range."
+              "en-US": "When you succeed on an Agility Roll to move from Far or Very Far range into Melee range with one or more targets, you can <bold>mark a Stress</bold> to deal <bold>1d12</bold> physical damage to all targets within Melee range."
             }
           }
         ]
@@ -223,7 +233,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you would mark a Stress, roll a d6. On a result of 6, don't mark it."
+              "en-US": "When you would mark a Stress, roll a <bold>d6</bold>. On a result of 6, don’t mark it."
             }
           }
         ]
@@ -236,7 +246,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Fungril are humanoid fungi, with bodies formed from mycelium and caps of various shapes and colors. Their skin is often spongy or rubbery, and their features can be quite alien to other ancestries. Fungril thrive in damp, dark environments, and their communities are interconnected by vast underground networks. They communicate through spores and subtle chemical signals, sharing thoughts and memories across great distances. Fungril are patient, contemplative, and possess a unique perspective on life and death, viewing both as parts of a natural cycle."
+          "en-US": "Fungril resemble humanoid mushrooms. They can be either more humanoid or more fungal in appearance, and they come in an assortment of colors, from earth tones to bright reds, yellows, purples, and blues. Fungril display an incredible variety of bodies, faces, and limbs, as there’s no single common shape among them. Even their heights range from a tiny 2 feet tall to a staggering 7 feet tall. While the common lifespan of a fungril is about 300 years, some have been reported to live much longer. They can communicate nonverbally, and many members of this ancestry use a mycelial array to chemically exchange information with other fungril across long distances."
         }
       }
     ],
@@ -256,7 +266,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "While touching a corpse that died recently, you can mark a Stress to extract one memory from the corpse related to a specific emotion or sensation of your choice."
+              "en-US": "While touching a corpse that died recently, you can <bold>mark a Stress</bold> to extract one memory from the corpse related to a specific emotion or sensation of your choice."
             }
           }
         ]
@@ -269,7 +279,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Galapa are turtle-like humanoids with large, domed shells that provide natural protection. Their leathery skin, sturdy limbs, and slow, deliberate movements are hallmarks of their ancestry. Galapa are known for their wisdom, patience, and long lifespans, often living for centuries. Their societies are structured around tradition and communal responsibility, with elders holding positions of great respect. Galapa value stability and foresight, and their advice is sought by those facing difficult decisions."
+          "en-US": "Galapa resemble anthropomorphic turtles with large, domed shells into which they can retract. On average, they range from 4 feet to 6 feet in height, and their head and body shapes can resemble any type of turtle. Galapa come in a variety of earth tones—most often shades of green and brown— and possess unique patterns on their shells. Members of this ancestry can draw their head, arms, and legs into their shell for protection to use it as a natural shield when defensive measures are needed. Some supplement their shell's strength or appearance by attaching armor or carving unique designs, but the process is exceedingly painful. Most galapa move slowly no matter their age, and they can live approximately 150 years."
         }
       }
     ],
@@ -289,7 +299,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Mark a Stress to retract into your shell. While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can't move."
+              "en-US": "<bold>Mark a Stress</bold> to retract into your shell. While in your shell, you have resistance to physical damage, you have disadvantage on action rolls, and you can’t move."
             }
           }
         ]
@@ -302,7 +312,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Giants are enormous humanoids, often towering over other ancestries. They possess broad shoulders, long limbs, and may have one, two, or three eyes. Giants are renowned for their strength, endurance, and resilience. Their societies are often organized around clans or extended families, with a strong emphasis on honor and personal achievement. Giants are capable builders and storytellers, and their oral traditions preserve the history of their people across generations. Despite their size, many giants are gentle and protective of those they consider kin."
+          "en-US": "Giants are towering humanoids with broad shoulders, long arms, and one to three eyes. Adult giants range from 6 ½ to 8 ½ feet tall and are naturally muscular, regardless of body type. They are easily recognized by their wide frames and elongated arms and necks. Though they can have up to three eyes, all giants are born with none and remain sightless for their first year of life. Until a giant reaches the age of 10 and their features fully develop, the formation of their eyes may fluctuate. Those with a single eye are commonly known as cyclops. The average giant lifespan is about 75 years."
         }
       }
     ],
@@ -335,7 +345,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Goblins are small, wiry humanoids with oversized eyes and large, membranous ears. Their quick reflexes and sharp senses make them adept at navigating dark or cramped spaces. Goblins are resourceful and inventive, often repurposing discarded items into useful tools or weapons. Their communities are tight-knit and fiercely loyal, but goblins are also known for their cunning and willingness to bend rules to achieve their goals. They thrive in environments where adaptability and cleverness are prized."
+          "en-US": "Goblins are small humanoids easily recognizable by their large eyes and massive membranous ears. With keen hearing and sharp eyesight, they perceive details both at great distances and in darkness, allowing them to move through less-optimal environments with ease. Their skin and eye colors are incredibly varied, with no one hue, either vibrant or subdued, more dominant than another. A typical goblin stands between 3 feet and 4 feet tall, and each of their ears is about the size of their head. Goblins are known to use ear positions to very specific effect when communicating nonverbally. A goblin’s lifespan is roughly 100 years, and many maintain their keen hearing and sight well into advanced age."
         }
       }
     ],
@@ -355,7 +365,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Once per rest, mark a Stress to force an adversary to reroll an attack against you or an ally within Very Close range."
+              "en-US": "Once per rest, <bold>mark a Stress</bold> to force an adversary to reroll an attack against you or an ally within Very Close range."
             }
           }
         ]
@@ -368,7 +378,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Halflings are small, cheerful humanoids with round faces, large hairy feet, and prominent ears. They are known for their hospitality, optimism, and strong sense of community. Halflings often dwell in rural areas, living in cozy homes built into hillsides or among fields and gardens. Their societies place a high value on tradition, family, and the enjoyment of simple pleasures. Halflings are remarkably resilient, able to find hope and humor even in the direst of circumstances."
+          "en-US": "Halflings are small humanoids with large hairy feet and prominent rounded ears. On average, halflings are 3 to 4 feet in height, and their ears, nose, and feet are larger in proportion to the rest of their body. Members of this ancestry live for around 150 years, and a halfling’s appearance is likely to remain youthful even as they progress from adulthood into old age. Halflings are naturally attuned to the magnetic fields of the Mortal Realm, granting them a strong internal compass. They also possess acute senses of hearing and smell, and can often detect those who are familiar to them by the sound of their movements."
         }
       }
     ],
@@ -401,7 +411,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Humans are adaptable, inventive, and resilient, with a remarkable capacity for change. They are distinguished by their dexterous hands, rounded ears, and diverse appearances. Human societies are varied, ranging from nomadic tribes to sprawling cities, and their cultures are shaped by ambition, curiosity, and a drive to explore. Humans form deep bonds with other ancestries and are known for their capacity to learn new skills quickly. Their relatively short lifespans fuel a sense of urgency and determination."
+          "en-US": "Humans are most easily recognized by their dexterous hands, rounded ears, and bodies built for endurance. Their average height ranges from just under 5 feet to about 6 ½ feet. They have a wide variety of builds, with some being quite broad, others lithe, and many inhabiting the spectrum in between. Humans are physically adaptable and adjust to harsh climates with relative ease. In general, humans live to an age of about 100, with their bodies changing dramatically between their youngest and oldest years."
         }
       }
     ],
@@ -421,7 +431,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you fail a roll that utilized one of your Experiences, you can mark a Stress to reroll."
+              "en-US": "When you fail a roll that utilized one of your Experiences, you can <bold>mark a Stress</bold> to reroll."
             }
           }
         ]
@@ -434,7 +444,12 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Infernis are humanoids marked by sharp canine teeth, pointed ears, and horns of various shapes and sizes. Their ancestry traces back to the infernal realms, and they often possess an innate resistance to heat or fire. Infernis are passionate and ambitious, with a reputation for boldness and determination. Their societies are structured around personal achievement and strength of will, and many infernis seek to prove themselves through feats of courage or cunning. Despite their origins, infernis are not inherently evil and often strive to define their own destinies."
+          "en-US": "Infernis are humanoids who possess sharp canine teeth, pointed ears, and horns. They are the descendants of demons from the Circles Below. On average, infernis range in height from 5 feet to 7 feet and are known to have long fingers and pointed nails. Some have long, thin, and smooth tails that end in points, forks, or arrowheads. It’s common for infernis to have two or four horns—though some have crowns of many horns, or only one. These horns can also grow asymmetrically, forming unique, often curving, shapes that infernis enhance with carving and ornamentation. Their skin, hair, and horns come in an assortment of colors that can include soft pastels, stark tones, or vibrant hues, such as rosy scarlet, deep purple, and pitch black."
+        }
+      },
+      {
+        "paragraph": {
+          "en-US": "Infernis possess a “dread visage” that manifests both involuntarily, such as when they experience fear or other strong emotions, or purposefully, such as when they wish to intimidate an adversary. This visage can briefly modify their appearance in a variety of ways, including lengthening their teeth and nails, changing the colors of their eyes, twisting their horns, or enhancing their height. On average, infernis live up to 350 years, with some attributing this lifespan to their demonic lineage."
         }
       }
     ],
@@ -444,7 +459,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you roll with Fear, you can mark 2 Stress to change it into a roll with Hope instead."
+              "en-US": "When you roll with Fear, you can <bold>mark 2 Stress</bold> to change it into a roll with Hope instead."
             }
           }
         ]
@@ -467,7 +482,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Katari are feline humanoids with sleek fur, retractable claws, and vertically slit pupils. Their high, triangular ears and agile bodies give them a distinctly catlike appearance. Katari are curious, independent, and quick-witted, often preferring to rely on their own skills and instincts. Their societies value personal freedom and adaptability, and katari are known for their ability to thrive in both wilderness and urban environments. Their senses are exceptionally keen, making them excellent hunters and scouts."
+          "en-US": "Katari are feline humanoids with retractable claws, vertically slit pupils, and high, triangular ears. They can also have small, pointed canine teeth, soft fur, and long whiskers that assist their perception and navigation. Their ears can swivel nearly 180 degrees to detect sound, adding to their heightened senses. Katari may look more or less feline or humanoid, with catlike attributes in the form of hair, whiskers, and a muzzle. About half of the katari population have tails. Their skin and fur come in a wide range of hues and patterns, including solid colors, calico tones, tabby stripes, and an array of spots, patches, marbling, or bands. Their height ranges from about 3 feet to 6 ½ feet, and they live to around 150 years."
         }
       }
     ],
@@ -477,7 +492,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you make an Agility Roll, you can spend 2 Hope to reroll your Hope Die."
+              "en-US": "When you make an Agility Roll, you can <bold>spend 2 Hope</bold> to reroll your Hope Die."
             }
           }
         ]
@@ -487,7 +502,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "Make an Agility Roll to scratch a target within Melee range. On a success, they become temporarily Vulnerable."
+              "en-US": "Make an Agility Roll to scratch a target within Melee range. On a success, they become temporarily <italic>Vulnerable</italic>."
             }
           }
         ]
@@ -500,7 +515,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Orcs are powerful humanoids with broad, square features and prominent tusks that jut from their lower jaws. Their skin tones range from deep green to gray, and their physiques are built for endurance and strength. Orc societies are organized around clans and emphasize honor, loyalty, and physical prowess. They are formidable warriors, but also skilled craftsmen and hunters. Orcs value bravery and directness, and their traditions are passed down through songs, stories, and rituals."
+          "en-US": "Orcs are humanoids most easily recognized by their square features and boar-like tusks that protrude from their lower jaw. Tusks come in various sizes, and though they extend from the mouth, they aren’t used for consuming food. Instead, many orcs choose to decorate their tusks with significant ornamentation. Orcs typically live for 125 years, and unless altered, their tusks continue to grow throughout the course of their lives. Their ears are pointed, and their hair and skin typically have green, blue, pink, or gray tones. Orcs tend toward a muscular build, and their average height ranges from 5 feet to 6 ½ feet."
         }
       }
     ],
@@ -520,7 +535,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "When you succeed on an attack against a target within Melee range, you can spend a Hope to gore the target with your tusks, dealing an extra 1d6 damage."
+              "en-US": "When you succeed on an attack against a target within Melee range, you can <bold>spend a Hope</bold> to gore the target with your tusks, dealing an extra <bold>1d6</bold> damage."
             }
           }
         ]
@@ -533,7 +548,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Ribbets are frog-like humanoids with smooth, moist skin, protruding eyes, and webbed hands and feet. Their legs are strong and flexible, allowing them to leap great distances or swim with ease. Ribbets are at home in wetlands, rivers, and lakes, where their keen senses and adaptability serve them well. Their societies are communal and cooperative, often organized around extended families or villages. Ribbets are cheerful and resourceful, known for their quick thinking and ability to escape danger."
+          "en-US": "Ribbets resemble anthropomorphic frogs with protruding eyes and webbed hands and feet. They have smooth (though sometimes warty) moist skin and eyes positioned on either side of their head. Some ribbets have hind legs more than twice the length of their torso, while others have short limbs. No matter their size (which ranges from about 3 feet to 4 ½ feet), ribbets primarily move by hopping. All ribbets have webbed appendages, allowing them to swim with ease. Some ribbets possess a natural green-and-brown camouflage, while others are vibrantly colored with bold patterns. No matter their appearance, all ribbets are born from eggs laid in the water, hatch into tadpoles, and after about 6 to 7 years, grow into amphibians that can move around on land. Ribbets live for approximately 100 years."
         }
       }
     ],
@@ -553,7 +568,7 @@
         "description": [
           {
             "paragraph": {
-              "en-US": "You can use your long tongue to grab onto things within Close range. Mark a Stress to use your tongue as a Finesse Close weapon that deals d12 physical damage using your Proficiency."
+              "en-US": "You can use your long tongue to grab onto things within Close range. <bold>Mark a Stress</bold> to use your tongue as a Finesse Close weapon that deals <bold>d12</bold> physical damage using your Proficiency."
             }
           }
         ]
@@ -566,7 +581,7 @@
     "description": [
       {
         "paragraph": {
-          "en-US": "Simiah are monkey- and ape-like humanoids with long limbs, prehensile feet, and expressive faces. Their bodies are covered in soft fur, and their hands and feet are equally dexterous. Simiah are agile climbers and acrobats, able to navigate trees and urban environments with ease. Their societies are lively and social, with strong bonds formed through play, storytelling, and mutual support. Simiah value curiosity, creativity, and a sense of humor, and are quick to make friends with those who share their zest for life."
+          "en-US": "Simiah resemble anthropomorphic monkeys and apes with long limbs and prehensile feet. While their appearance reflects all simian creatures, from the largest gorilla to the smallest marmoset, their size does not align with their animal counterparts, and they can be anywhere from 2 to 6 feet tall. All simiah can use their dexterous feet for nonverbal communication, work, and combat. Additionally, some also have prehensile tails that can grasp objects or help with balance during difficult maneuvers. These traits grant members of this ancestry unique agility that aids them in a variety of physical tasks. In particular, simiah are skilled climbers and can easily transition from bipedal movement to knuckle-walking and climbing, and back again. On average, simiah live for about 100 years."
         }
       }
     ],
