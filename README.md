@@ -12,6 +12,16 @@ The [releases](https://github.com/daggerheart-data/daggerheart-data/tree/main/re
 
 The [schemas](https://github.com/daggerheart-data/daggerheart-data/tree/main/schemas) directory contains JSON schemas that validate each release's JSON files.
 
+## Text Styling
+
+Bold text is wrapped in `<bold></bold>` tags, and italicized text is wrapped in `<italic></italic>` tags. For example:
+
+```
+Hello, <bold>this text is bold</bold> and <italic>this text is italicized</italic>!
+```
+
+In your project, replace these tags depending on your use case. For example, if you're displaying data in Markdown, replace bold tags with `**` and italic tags with `*`. Or if you're displaying data in HTML, replace bold tags with `<b>` and italic tags with `<i>`.
+
 ## Contributing
 
 [Create a fork](https://github.com/daggerheart-data/daggerheart-data/fork) of this repository, then clone your fork and install dependencies:

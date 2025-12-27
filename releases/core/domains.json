@@ -1,0 +1,101 @@
+[
+  {
+    "id": "core_domain_arcana",
+    "name": { "en-US": "Arcana" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Arcana is the domain of <bold>innate and instinctual magic</bold>. Those who choose this path tap into the raw, enigmatic forces of the realms to manipulate both their own energy and the elements. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled. The Arcana domain can be accessed by the <bold>Druid</bold> and <bold>Sorcerer</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_blade",
+    "name": { "en-US": "Blade" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Blade is the domain of <bold>weapon mastery</bold>. Whether by steel, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Wielders of Blade dedicate themselves to achieving <bold>inexorable power over death</bold>. The Blade domain can be accessed by the <bold>Guardian</bold> and <bold>Warrior</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_bone",
+    "name": { "en-US": "Bone" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Bone is the domain of <bold>tactics and the body</bold>. Practitioners of this domain have an <bold>uncanny control over their own physical abilities</bold> and an <bold>eye for predicting the behaviors of others in combat</bold>. Adherents to Bone gain an <bold>unparalleled understanding of bodies and their movements</bold>. The Bone domain can be accessed by the <bold>Ranger & Warrior</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_codex",
+    "name": { "en-US": "Codex" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Codex is the domain of <bold>intensive magical study</bold>. Those who seek magical knowledge turn to the <bold>equations of power</bold> recorded in books, written on scrolls, etched into walls, or tattooed on bodies. Codex offers a <bold>commanding and versatile understanding of magic</bold> to devotees who pursue knowledge beyond the boundaries of common wisdom. The Codex domain can be accessed by the <bold>Bard</bold> and <bold>Wizard</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_grace",
+    "name": { "en-US": "Grace" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Grace is the domain of <bold>charisma</bold>. Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power <bold>define the realities of their adversaries</bold>, <bold>bending perception to their will</bold>. Grace offers its wielders <bold>raw magnetism</bold> and <bold>mastery over language</bold>. The Grace domain can be accessed by the <bold>Bard</bold> and <bold>Rogue</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_midnight",
+    "name": { "en-US": "Midnight" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Midnight is the domain of <bold>shadows and secrecy</bold>. Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the <bold>art of obscurity</bold> and can <bold>uncover sequestered treasures</bold>. Midnight offers practitioners the <bold>power to control and create enigmas</bold>. The Midnight domain can be accessed by the <bold>Rogue</bold> and <bold>Sorcerer</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_sage",
+    "name": { "en-US": "Sage" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Sage is the domain of the <bold>natural world</bold>. Those who walk this path tap into the <bold>unfettered power of the earth and its creatures</bold> to <bold>unleash raw magic</bold>. Sage grants its adherents the <bold>vitality of a blooming flower</bold> and the <bold>ferocity of a ravenous predator</bold>. The Sage domain can be accessed by the <bold>Druid</bold> and <bold>Ranger</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_splendor",
+    "name": { "en-US": "Splendor" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Splendor is the domain of <bold>life</bold>. Through this magic, followers gain the ability to <bold>heal</bold> and, to an extent, <bold>control death</bold>. Splendor offers its disciples the <bold>magnificent ability to both give and end life</bold>. The Splendor domain can be accessed by the <bold>Seraph</bold> and <bold>Wizard</bold> classes."
+        }
+      }
+    ]
+  },
+  {
+    "id": "core_domain_valor",
+    "name": { "en-US": "Valor" },
+    "description": [
+      {
+        "paragraph": {
+          "en-US": "Valor is the domain of <bold>protection</bold>. Whether through attack or defense, those who choose this discipline channel <bold>formidable strength to protect their allies in battle</bold>. Valor offers great power to those who <bold>raise their shields in defense of others</bold>. The Valor domain can be accessed by the <bold>Guardian</bold> and <bold>Seraph</bold> classes."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/domains.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "description": { "$ref": "./common/description.schema.json" }
+    },
+    "required": ["id", "name", "description"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}
