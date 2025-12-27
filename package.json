@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "validate": "prettier --check . && node _scripts/validate.js"
+    "validate": "prettier --log-level warn --check . && node _scripts/validate.js"
   },
   "devDependencies": {
     "ajv-cli": "^5.0.0",
