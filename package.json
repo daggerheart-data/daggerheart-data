@@ -1,6 +1,7 @@
 {
   "name": "daggerheart-data",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "format": "prettier --write .",
     "validate": "prettier --check . && node _scripts/validate.js"

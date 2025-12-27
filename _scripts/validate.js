@@ -1,7 +1,7 @@
-const Ajv = require("ajv/dist/2020");
-const fs = require("fs");
-const path = require("path");
-const { globSync } = require("glob");
+import Ajv from "ajv/dist/2020.js";
+import fs from "fs";
+import path from "path";
+import { globSync } from "glob";
 
 const ajv = new Ajv({ allErrors: true });
 const schemas = new Map();
