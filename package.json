@@ -4,12 +4,14 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "validate": "prettier --log-level warn --check . && node _scripts/validate.js"
+    "validate": "prettier --log-level warn --check . && node scripts/validate.js",
+    "build": "node scripts/build.js"
   },
   "devDependencies": {
     "ajv-cli": "^5.0.0",
     "glob": "^13.0.0",
-    "prettier": "^3.7.0"
+    "prettier": "^3.7.0",
+    "tar-stream": "^3.1.0"
   },
   "prettier": {
     "useTabs": false,
