@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/armors.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "tier": { "$ref": "./common/tier.schema.json" },
+      "baseScore": { "type": "integer", "minimum": 0, "maximum": 12 },
+      "baseMajorThreshold": { "type": "integer", "minimum": 0 },
+      "baseSevereThreshold": { "type": "integer", "minimum": 0 },
+      "features": {
+        "type": "array",
+        "items": { "$ref": "./common/feature.schema.json" },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "tier",
+      "baseScore",
+      "baseMajorThreshold",
+      "baseSevereThreshold"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}
