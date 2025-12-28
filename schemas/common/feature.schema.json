@@ -6,6 +6,6 @@
     "name": { "$ref": "./localized-string.schema.json" },
     "description": { "$ref": "./description.schema.json" }
   },
-  "required": ["description"],
+  "required": ["name", "description"],
   "additionalProperties": false
 }
