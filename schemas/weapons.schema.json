@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/weapons.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "type": {
+        "type": "string",
+        "enum": ["PRIMARY_PHYSICAL", "PRIMARY_MAGIC", "SECONDARY"]
+      },
+      "tier": { "$ref": "./common/tier.schema.json" },
+      "trait": { "$ref": "./common/trait.schema.json" },
+      "range": { "$ref": "./common/range.schema.json" },
+      "damage": { "$ref": "./common/damage.schema.json" },
+      "burden": { "$ref": "./common/burden.schema.json" },
+      "features": {
+        "type": "array",
+        "items": { "$ref": "./common/feature.schema.json" },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "type",
+      "tier",
+      "trait",
+      "range",
+      "damage",
+      "burden"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

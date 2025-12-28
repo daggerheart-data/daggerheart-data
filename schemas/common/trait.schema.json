@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/common/trait.schema.json",
+  "type": "string",
+  "enum": [
+    "AGILITY",
+    "FINESSE",
+    "INSTINCT",
+    "KNOWLEDGE",
+    "PRESENCE",
+    "STRENGTH"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/common/damage.schema.json",
+  "type": "object",
+  "properties": {
+    "dice": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "proficiency": { "const": true },
+          "quantity": { "type": "integer", "minimum": 1 },
+          "die": { "$ref": "./die.schema.json" }
+        },
+        "required": ["die"],
+        "oneOf": [
+          { "required": ["proficiency"] },
+          { "required": ["quantity"] }
+        ],
+        "not": { "required": ["proficiency", "quantity"] },
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "modifier": { "type": "integer", "minimum": 1 },
+    "type": {
+      "type": "string",
+      "enum": ["PHYSICAL", "MAGIC", "PHYSICAL_OR_MAGIC"]
+    }
+  },
+  "required": ["dice", "type"],
+  "additionalProperties": false
+}

@@ -12,9 +12,9 @@
         "minItems": 1
       }
     },
-    "additionalProperties": false,
     "oneOf": [{ "required": ["paragraph"] }, { "required": ["list"] }],
-    "not": { "required": ["paragraph", "list"] }
+    "not": { "required": ["paragraph", "list"] },
+    "additionalProperties": false
   },
   "minItems": 1
 }
