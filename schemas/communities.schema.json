@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/communities.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "description": { "$ref": "./common/description.schema.json" },
+      "features": {
+        "type": "array",
+        "items": { "$ref": "./common/feature.schema.json" },
+        "minItems": 1,
+        "maxItems": 1
+      }
+    },
+    "required": ["id", "name", "description", "features"],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}
