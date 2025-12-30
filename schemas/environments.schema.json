@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/environments.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "tier": { "$ref": "./common/tier.schema.json" },
+      "type": {
+        "type": "string",
+        "enum": ["EXPLORATION", "SOCIAL", "TRAVERSAL", "EVENT"]
+      },
+      "description": { "$ref": "./common/description.schema.json" },
+      "impulses": { "$ref": "./common/localized-string.schema.json" },
+      "difficulty": { "type": "integer", "minimum": 1 },
+      "features": {
+        "type": "array",
+        "items": { "$ref": "./common/feature.schema.json" },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "tier",
+      "type",
+      "description",
+      "impulses",
+      "features"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 1
+}
