@@ -9,22 +9,16 @@
       "name": { "$ref": "./common/localized-string.schema.json" },
       "tier": { "$ref": "./common/tier.schema.json" },
       "baseScore": { "type": "integer", "minimum": 0, "maximum": 12 },
-      "baseMajorThreshold": { "type": "integer", "minimum": 0 },
-      "baseSevereThreshold": { "type": "integer", "minimum": 0 },
+      "baseDamageThresholds": {
+        "$ref": "./common/damage-thresholds.schema.json"
+      },
       "features": {
         "type": "array",
         "items": { "$ref": "./common/feature.schema.json" },
         "minItems": 1
       }
     },
-    "required": [
-      "id",
-      "name",
-      "tier",
-      "baseScore",
-      "baseMajorThreshold",
-      "baseSevereThreshold"
-    ],
+    "required": ["id", "name", "tier", "baseScore", "baseDamageThresholds"],
     "additionalProperties": false
   },
   "minItems": 1

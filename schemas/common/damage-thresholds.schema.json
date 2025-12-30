@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/common/damage-thresholds.schema.json",
+  "type": "object",
+  "properties": {
+    "major": { "type": "integer", "minimum": 0 },
+    "severe": { "type": "integer", "minimum": 0 }
+  },
+  "required": ["major"],
+  "additionalProperties": false
+}

@@ -4,8 +4,7 @@
     "name": { "en-US": "Gambeson Armor" },
     "tier": 1,
     "baseScore": 3,
-    "baseMajorThreshold": 5,
-    "baseSevereThreshold": 11,
+    "baseDamageThresholds": { "major": 5, "severe": 11 },
     "features": [
       {
         "name": { "en-US": "Flexible" },
@@ -18,16 +17,14 @@
     "name": { "en-US": "Leather Armor" },
     "tier": 1,
     "baseScore": 3,
-    "baseMajorThreshold": 6,
-    "baseSevereThreshold": 13
+    "baseDamageThresholds": { "major": 6, "severe": 13 }
   },
   {
     "id": "core_armor_chainmail_armor",
     "name": { "en-US": "Chainmail Armor" },
     "tier": 1,
     "baseScore": 4,
-    "baseMajorThreshold": 7,
-    "baseSevereThreshold": 15,
+    "baseDamageThresholds": { "major": 7, "severe": 15 },
     "features": [
       {
         "name": { "en-US": "Heavy" },
@@ -40,8 +37,7 @@
     "name": { "en-US": "Full Plate Armor" },
     "tier": 1,
     "baseScore": 4,
-    "baseMajorThreshold": 8,
-    "baseSevereThreshold": 17,
+    "baseDamageThresholds": { "major": 8, "severe": 17 },
     "features": [
       {
         "name": { "en-US": "Very Heavy" },
@@ -56,8 +52,7 @@
     "name": { "en-US": "Improved Gambeson Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 7,
-    "baseSevereThreshold": 16,
+    "baseDamageThresholds": { "major": 7, "severe": 16 },
     "features": [
       {
         "name": { "en-US": "Flexible" },
@@ -70,16 +65,14 @@
     "name": { "en-US": "Improved Leather Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 20
+    "baseDamageThresholds": { "major": 9, "severe": 20 }
   },
   {
     "id": "core_armor_improved_chainmail_armor",
     "name": { "en-US": "Improved Chainmail Armor" },
     "tier": 2,
     "baseScore": 5,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 24,
+    "baseDamageThresholds": { "major": 11, "severe": 24 },
     "features": [
       {
         "name": { "en-US": "Heavy" },
@@ -92,8 +85,7 @@
     "name": { "en-US": "Improved Full Plate Armor" },
     "tier": 2,
     "baseScore": 5,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 28,
+    "baseDamageThresholds": { "major": 13, "severe": 28 },
     "features": [
       {
         "name": { "en-US": "Very Heavy" },
@@ -108,8 +100,7 @@
     "name": { "en-US": "Elundrian Chain Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 21,
+    "baseDamageThresholds": { "major": 9, "severe": 21 },
     "features": [
       {
         "name": { "en-US": "Warded" },
@@ -128,8 +119,7 @@
     "name": { "en-US": "Harrowbone Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 21,
+    "baseDamageThresholds": { "major": 9, "severe": 21 },
     "features": [
       {
         "name": { "en-US": "Resilient" },
@@ -148,8 +138,7 @@
     "name": { "en-US": "Irontree Breastplate Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 20,
+    "baseDamageThresholds": { "major": 9, "severe": 20 },
     "features": [
       {
         "name": { "en-US": "Reinforced" },
@@ -168,8 +157,7 @@
     "name": { "en-US": "Runetan Floating Armor" },
     "tier": 2,
     "baseScore": 4,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 20,
+    "baseDamageThresholds": { "major": 9, "severe": 20 },
     "features": [
       {
         "name": { "en-US": "Shifting" },
@@ -188,8 +176,7 @@
     "name": { "en-US": "Tyris Soft Armor" },
     "tier": 2,
     "baseScore": 5,
-    "baseMajorThreshold": 8,
-    "baseSevereThreshold": 18,
+    "baseDamageThresholds": { "major": 8, "severe": 18 },
     "features": [
       {
         "name": { "en-US": "Quiet" },
@@ -208,8 +195,7 @@
     "name": { "en-US": "Rosewild Armor" },
     "tier": 2,
     "baseScore": 5,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 23,
+    "baseDamageThresholds": { "major": 11, "severe": 23 },
     "features": [
       {
         "name": { "en-US": "Hopeful" },
@@ -228,8 +214,7 @@
     "name": { "en-US": "Advanced Gambeson Armor" },
     "tier": 3,
     "baseScore": 5,
-    "baseMajorThreshold": 9,
-    "baseSevereThreshold": 23,
+    "baseDamageThresholds": { "major": 9, "severe": 23 },
     "features": [
       {
         "name": { "en-US": "Flexible" },
@@ -242,16 +227,14 @@
     "name": { "en-US": "Advanced Leather Armor" },
     "tier": 3,
     "baseScore": 5,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 27
+    "baseDamageThresholds": { "major": 11, "severe": 27 }
   },
   {
     "id": "core_armor_advanced_chainmail_armor",
     "name": { "en-US": "Advanced Chainmail Armor" },
     "tier": 3,
     "baseScore": 6,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 31,
+    "baseDamageThresholds": { "major": 13, "severe": 31 },
     "features": [
       {
         "name": { "en-US": "Heavy" },
@@ -264,8 +247,7 @@
     "name": { "en-US": "Advanced Full Plate Armor" },
     "tier": 3,
     "baseScore": 6,
-    "baseMajorThreshold": 15,
-    "baseSevereThreshold": 35,
+    "baseDamageThresholds": { "major": 15, "severe": 35 },
     "features": [
       {
         "name": { "en-US": "Very Heavy" },
@@ -280,8 +262,7 @@
     "name": { "en-US": "Bellamoi Fine Armor" },
     "tier": 3,
     "baseScore": 5,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 27,
+    "baseDamageThresholds": { "major": 11, "severe": 27 },
     "features": [
       {
         "name": { "en-US": "Gilded" },
@@ -294,8 +275,7 @@
     "name": { "en-US": "Dragonscale Armor" },
     "tier": 3,
     "baseScore": 5,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 27,
+    "baseDamageThresholds": { "major": 11, "severe": 27 },
     "features": [
       {
         "name": { "en-US": "Impenetrable" },
@@ -314,8 +294,7 @@
     "name": { "en-US": "Spiked Plate Armor" },
     "tier": 3,
     "baseScore": 5,
-    "baseMajorThreshold": 10,
-    "baseSevereThreshold": 25,
+    "baseDamageThresholds": { "major": 10, "severe": 25 },
     "features": [
       {
         "name": { "en-US": "Sharp" },
@@ -334,8 +313,7 @@
     "name": { "en-US": "Bladefare Armor" },
     "tier": 3,
     "baseScore": 6,
-    "baseMajorThreshold": 16,
-    "baseSevereThreshold": 39,
+    "baseDamageThresholds": { "major": 16, "severe": 39 },
     "features": [
       {
         "name": { "en-US": "Physical" },
@@ -354,8 +332,7 @@
     "name": { "en-US": "Monett’s Cloak" },
     "tier": 3,
     "baseScore": 6,
-    "baseMajorThreshold": 16,
-    "baseSevereThreshold": 39,
+    "baseDamageThresholds": { "major": 16, "severe": 39 },
     "features": [
       {
         "name": { "en-US": "Magic" },
@@ -374,8 +351,7 @@
     "name": { "en-US": "Runes of Fortification" },
     "tier": 3,
     "baseScore": 6,
-    "baseMajorThreshold": 17,
-    "baseSevereThreshold": 43,
+    "baseDamageThresholds": { "major": 17, "severe": 43 },
     "features": [
       {
         "name": { "en-US": "Painful" },
@@ -394,8 +370,7 @@
     "name": { "en-US": "Legendary Gambeson Armor" },
     "tier": 4,
     "baseScore": 6,
-    "baseMajorThreshold": 11,
-    "baseSevereThreshold": 32,
+    "baseDamageThresholds": { "major": 11, "severe": 32 },
     "features": [
       {
         "name": { "en-US": "Flexible" },
@@ -408,16 +383,14 @@
     "name": { "en-US": "Legendary Leather Armor" },
     "tier": 4,
     "baseScore": 6,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 36
+    "baseDamageThresholds": { "major": 13, "severe": 36 }
   },
   {
     "id": "core_armor_legendary_chainmail_armor",
     "name": { "en-US": "Legendary Chainmail Armor" },
     "tier": 4,
     "baseScore": 7,
-    "baseMajorThreshold": 15,
-    "baseSevereThreshold": 40,
+    "baseDamageThresholds": { "major": 15, "severe": 40 },
     "features": [
       {
         "name": { "en-US": "Heavy" },
@@ -430,8 +403,7 @@
     "name": { "en-US": "Legendary Full Plate Armor" },
     "tier": 4,
     "baseScore": 7,
-    "baseMajorThreshold": 17,
-    "baseSevereThreshold": 44,
+    "baseDamageThresholds": { "major": 17, "severe": 44 },
     "features": [
       {
         "name": { "en-US": "Very Heavy" },
@@ -446,8 +418,7 @@
     "name": { "en-US": "Dunamis Silkchain" },
     "tier": 4,
     "baseScore": 7,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 36,
+    "baseDamageThresholds": { "major": 13, "severe": 36 },
     "features": [
       {
         "name": { "en-US": "Timeslowing" },
@@ -466,8 +437,7 @@
     "name": { "en-US": "Channeling Armor" },
     "tier": 4,
     "baseScore": 5,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 36,
+    "baseDamageThresholds": { "major": 13, "severe": 36 },
     "features": [
       {
         "name": { "en-US": "Channeling" },
@@ -480,8 +450,7 @@
     "name": { "en-US": "Emberwoven Armor" },
     "tier": 4,
     "baseScore": 6,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 36,
+    "baseDamageThresholds": { "major": 13, "severe": 36 },
     "features": [
       {
         "name": { "en-US": "Burning" },
@@ -500,8 +469,7 @@
     "name": { "en-US": "Full Fortified Armor" },
     "tier": 4,
     "baseScore": 4,
-    "baseMajorThreshold": 15,
-    "baseSevereThreshold": 40,
+    "baseDamageThresholds": { "major": 15, "severe": 40 },
     "features": [
       {
         "name": { "en-US": "Fortified" },
@@ -520,8 +488,7 @@
     "name": { "en-US": "Veritas Opal Armor" },
     "tier": 4,
     "baseScore": 6,
-    "baseMajorThreshold": 13,
-    "baseSevereThreshold": 36,
+    "baseDamageThresholds": { "major": 13, "severe": 36 },
     "features": [
       {
         "name": { "en-US": "Truthseeking" },
@@ -540,8 +507,7 @@
     "name": { "en-US": "Savior Chainmail" },
     "tier": 4,
     "baseScore": 8,
-    "baseMajorThreshold": 18,
-    "baseSevereThreshold": 48,
+    "baseDamageThresholds": { "major": 18, "severe": 48 },
     "features": [
       {
         "name": { "en-US": "Difficult" },
