@@ -13,7 +13,6 @@
       }
     },
     "oneOf": [{ "required": ["paragraph"] }, { "required": ["list"] }],
-    "not": { "required": ["paragraph", "list"] },
     "additionalProperties": false
   },
   "minItems": 1

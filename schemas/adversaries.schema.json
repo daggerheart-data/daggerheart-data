@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/adversaries.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "$ref": "./common/id.schema.json" },
+      "name": { "$ref": "./common/localized-string.schema.json" },
+      "tier": { "$ref": "./common/tier.schema.json" },
+      "type": {
+        "type": "string",
+        "enum": [
+          "BRUISER",
+          "HORDE",
+          "LEADER",
+          "MINION",
+          "RANGED",
+          "SKULK",
+          "SOCIAL",
+          "SOLO",
+          "STANDARD",
+          "SUPPORT"
+        ]
+      },
+      "quantityPerHitPoint": { "type": "integer", "minimum": 1 },
+      "description": { "$ref": "./common/description.schema.json" },
+      "motivesAndTactics": { "$ref": "./common/localized-string.schema.json" },
+      "difficulty": { "type": "integer", "minimum": 1 },
+      "damageThresholds": { "$ref": "./common/damage-thresholds.schema.json" },
+      "hitPoints": { "type": "integer", "minimum": 1 },
+      "stress": { "type": "integer", "minimum": 1 },
+      "attackModifier": { "type": "integer" },
+      "standardAttack": {
+        "type": "object",
+        "properties": {
+          "name": { "$ref": "./common/localized-string.schema.json" },
+          "range": { "$ref": "./common/range.schema.json" },
+          "damage": { "$ref": "./common/damage.schema.json" }
+        },
+        "required": ["name", "damage"],
+        "additionalProperties": false
+      },
+      "experiences": {
+        "type": "array",
+        "items": { "$ref": "./common/experience.schema.json" },
+        "minItems": 1
+      },
+      "features": {
+        "type": "array",
+        "items": { "$ref": "./common/feature.schema.json" },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "tier",
+      "type",
+      "description",
+      "motivesAndTactics",
+      "difficulty",
+      "hitPoints",
+      "stress",
+      "attackModifier",
+      "standardAttack",
+      "features"
+    ],
+    "if": { "properties": { "type": { "const": "HORDE" } } },
+    "then": { "required": ["quantityPerHitPoint"] },
+    "additionalProperties": false
+  },
+  "minItems": 1
+}

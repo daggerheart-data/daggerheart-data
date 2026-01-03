@@ -28,6 +28,7 @@
       "enum": ["PHYSICAL", "MAGIC", "PHYSICAL_OR_MAGIC"]
     }
   },
-  "required": ["dice", "type"],
+  "required": ["type"],
+  "anyOf": [{ "required": ["dice"] }, { "required": ["modifier"] }],
   "additionalProperties": false
 }

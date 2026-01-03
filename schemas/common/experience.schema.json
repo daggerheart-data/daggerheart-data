@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/daggerheart-data/daggerheart-data/refs/heads/main/schemas/common/experience.schema.json",
+  "type": "object",
+  "properties": {
+    "name": { "$ref": "./localized-string.schema.json" },
+    "modifier": { "type": "integer", "minimum": 1 }
+  },
+  "required": ["name", "modifier"],
+  "additionalProperties": false
+}
